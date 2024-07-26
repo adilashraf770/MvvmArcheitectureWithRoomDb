@@ -69,28 +69,24 @@ plugins {
 }
 
 dependencies {
-...
-...
+ 
     // Room Db
-    // - - Room Persistence Library
     val  room_version = "2.6.0"
     implementation ("androidx.room:room-runtime:$room_version")
     kapt ("androidx.room:room-compiler:$room_version")
 
-    // optional - Kotlin Extensions and Coroutines support for Room
+    // Kotlin Extensions and Coroutines support for Room
     implementation ("androidx.room:room-ktx:$room_version")
 
-    // - - ViewModel and LiveData
+    // ViewModel and LiveData
     val  lifecycle_version = "2.6.2"
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
-    // - - Kotlin Coroutines
+    // Kotlin Coroutines
     val coroutines_version = "1.3.7"
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version")
 
-...
-...
 }
 ```
 
