@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MvvmWithRoomDB</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="student_details">Students Details</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="enter_your_roll_no">Enter Your Roll no</string>
+    <string name="delete_table">Delete Table</string>
+    <string name="delete_database">Delete Database</string>
+    <string name="enter_your_student_id">Enter your Student Id</string>
+</resources>
